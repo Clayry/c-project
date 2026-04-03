@@ -1,0 +1,55 @@
+# --- Executables ---
+*.exe
+*.out
+*.app
+# If you name your output 'main' or 'app' without an extension:
+/main
+/app
+
+# --- Objects and Libraries ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# --- Build Directories ---
+build/
+bin/
+obj/
+out/
+
+# --- Dependency Management ---
+# (If using package managers like vcpkg or conan)
+vcpkg_installed/
+.conan/
+
+# --- IDE and Editor Specific ---
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.user
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# --- Debug and Temp Files ---
+*.dSYM/
+*.log
+*.tmp
+*.swp
+.DS_Store
