@@ -1,6 +1,5 @@
 #include "../include/tetris.h"
 #include <stdbool.h>
-#include <stdlib.h>
 
 static const int LINE_SCORE[5] = {0, 100, 300, 500, 800};
 
