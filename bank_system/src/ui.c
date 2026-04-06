@@ -144,8 +144,8 @@ static void menu_login(Bank *bank) {
       attempts--;
       if (attempts > 0) {
         printf(" [!] Wrong PIN. %d attempt(s) remaining.\n", attempts);
+        pr
       }
     }
-    
   }
 }
